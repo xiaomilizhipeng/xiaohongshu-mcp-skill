@@ -1,11 +1,11 @@
 ---
 name: xiaohongshu-mcp
-description: 使用 xiaohongshu MCP 进行小红书搜索、笔记详情读取、评论抓取、发表评论、回复评论、图文/视频发布。用户提到“小红书、xiaohongshu、小红书MCP、搜小红书、查小红书、发小红书、发布笔记、小红书笔记、小红书评论、小红书详情、小红书发布”时使用。优先通过 mcporter 配置中的本地 MCP 服务 `xiaohongshu` 调用。
+description: 本地小红书 MCP 工作流技能，支持搜索笔记、读取详情与评论、发表评论与回复、发布图文/视频，并附带可直接复用的 Bash 脚本与发布模板。用户提到“小红书、xiaohongshu、小红书MCP、搜小红书、查小红书、发小红书、发布笔记、小红书评论、小红书详情、笔记发布、内容运营、RedNote”时使用。优先通过 mcporter 配置中的本地 MCP 服务 `xiaohongshu` 调用。
 ---
 
 # xiaohongshu-mcp
 
-使用 `mcporter` 调用本地 `xiaohongshu` MCP 服务。
+使用 `mcporter` 调用本地 `xiaohongshu` MCP 服务，并提供一套开箱即用的小红书工作流脚本。
 
 ## 先做的检查
 

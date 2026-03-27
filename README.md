@@ -1,23 +1,24 @@
-# xiaohongshu-mcp
+# OpenClaw Xiaohongshu MCP
 
-A local OpenClaw skill for working with a Xiaohongshu MCP server through `mcporter`.
+A local OpenClaw skill for operating Xiaohongshu / RED through a local MCP server and `mcporter`.
 
-## Features
+## What it includes
 
 - Search Xiaohongshu notes
-- Read note details and comments
+- Load note details and comments
 - Post comments and replies
 - Publish image posts
-- Use local-image publishing via Docker-mounted `/images`
+- Use local-image publishing through Docker-mounted `/images`
+- Reusable helper scripts for common workflows
 
-## Layout
+## Included files
 
-- `SKILL.md` — skill instructions
-- `scripts/` — helper scripts
-- `assets/config/mcporter.json` — local mcporter config for the skill
+- `SKILL.md` — skill instructions and trigger description
+- `scripts/` — helper scripts for search, detail, comment, pick-detail, and publish
+- `assets/config/mcporter.json` — minimal local mcporter config
 - `assets/templates/` — publish JSON templates
 - `assets/docker-compose.xiaohongshu-mcp.yml` — example local deployment
-- `references/setup.md` — setup notes
+- `references/setup.md` — setup and persistence notes
 
 ## Quick start
 
